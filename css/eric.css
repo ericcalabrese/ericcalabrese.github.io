@@ -5,13 +5,14 @@
 .headerMe {
 	text-shadow: -2px -2px black;
 }
-
+#linkedin{
+	width: 34%;
+}
 .contact img {
 	height: 30%;
 	width: 30%;
 }
 .emailContact {
-	height: 50%;
-	width: 32%;
+	width: 30%;
 	margin-top: 2%;
 }
