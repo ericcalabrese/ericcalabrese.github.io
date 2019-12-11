@@ -19,3 +19,71 @@
 .contact a i {
 	font-size: 48px;
 }
+.navbar-default .nav>li>a {
+	font-size: 16px;
+}
+header {
+	background-image: url('../img/sunsetNew.jpg') !important;
+}
+header .header-content .header-content-inner p {
+	color: #ffffff;
+}
+header .header-content .header-content-inner hr {
+    margin: 20px auto;
+}
+.popup-gallery {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.popup-gallery .portfolioBox {
+	width: 33.333333%;
+}
+header .header-content .header-content-inner p {
+	font-weight: normal;
+}
+.navbar-toggle {
+    padding: 6px 8px 5px !important;
+}
+button .fa-bars {
+	font-size: 20px;
+}
+.contactContainer {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 0;
+}
+.contactContainer .contact {
+	width: 33%;
+	display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+	.navbar-default.affix .navbar-header .navbar-brand {
+		font-size: 16px;
+	}
+	header .header-content .header-content-inner p {
+		font-size: 20px;
+	}
+}
+@media (max-width: 1024px) {
+	.popup-gallery .portfolioBox {
+		width: auto;
+    	flex: 1 34%;
+	}
+}
+@media (max-width: 768px) {
+	.popup-gallery .portfolioBox {
+		width: 50%;
+	}
+}
+@media (max-width: 425px) {
+	.popup-gallery .portfolioBox {
+		width: 100%;
+	}
+	.contactContainer .contact {
+		width: 25%;
+	}
+}
